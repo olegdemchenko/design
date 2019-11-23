@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="libs/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="fonts/icofont/icofont.min.css" rel="stylesheet">
+    <link href="libs/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="libs/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link href="libs/bxslider-4-4.2.12/bxslider-4-4.2.12/src/css/jquery.bxslider.css" rel='stylesheet'>
+    <script src="libs/bxslider-4-4.2.12/bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+   
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
+   
+</head>
+<body>
+<div class="modal-window-wrapper">
+    <div class="main-content " id="mainBlock">
+       
+         
+        <div class="header-wrapper ">
+            <div class='header-content max-width-1300 ' >
+     <div class=" logo "><span class="blue-element">D<span class="disappear">esign</span></span>R<span class="disappear">emont</span></div>
+  
+     <div class=" call-search " id='callSearch'>
+         <button  class="callback blue-on-hover " data-toggle="modal" data-target="#ModalCenter">Обратная связь</button>
+         <i class="fas fa-phone-volume"><span class="tel-number">+38(098) 399-58-47</span></i>
+        <div class="search-wrapper"><i class="icofont-close-line search-closer" id="searchCloser"></i><input type="search" class="search-input" id='searchInput'> <i class="fas fa-search" id="searchIcon"></i></div>
+         <div class="burgermenu" ><i class="fas fa-bars"></i>
+             <div class="burger-services" id="burgerServices">
+                <div class="closer" ><i class="icofont-close-line" id="closer"></i></div>
+                <div id="servicesBox"></div>
+               
+             </div>
+        </div>
+     </div>
+     <nav class=" services"  id="topServices">
+        <ul class="services-ul">
+            <li class="dropdown-parent">Дизайн интерьера
+               <div class="dropdownMenu one">
+                 <p>Каталог стилей</p>
+                 <p>Подбор стиля</p>
+               </div>
+            </li>
+            <li class="dropdown-parent">Ремонт
+                <div class="dropdownMenu two">
+                <p>Элитный ремонт квартир</p>
+                <p>Капитальный ремонт квартир</p>
+                <p>Ремонт домов и коттеджей</p>
+                <p>Ремонт офисов</p>
+                </div>
+            </li>
+            <li>Портфолио </li>
+            <li>Прайс</li>
+            <li class="dropdown-parent">О компании
+                <div class="dropdownMenu three">
+                <p>Отзывы</p>
+                <p>Блог</p>
+                </div>
+
+            </li>
+            <li>Контакты</li>
+           </ul> 
+        </nav>
+       
+    </div>
+</div>
+        
+        
+        <div class="up-to-header" id='upToHeader'><i class="fas fa-chevron-up"></i></div>
+        <section class="animated-slider">
+        <img src="img/slide 1 1.jpg">
+        <img src="img/slide 1 2.jpg">
+        <img src="img/slide 1 3.jpg">
+        </section>
+        <arcticle class="article">
+              <div class="grey">
+         <section class="row no-gutters general-info max-width-1300  grey">
+             <div class="tasks-wrapper col-lg-6 col-md-6" >
+                
+                     <ul class="designer-tasks">
+                     <li><h4>Задачи дизайнера</h4></li>
+                     <li>Рациональное использование пространства помещения</li>
+                     <li>Создание максимально комфортного и функционального интерьера.</li>
+                     <li>Полное понимание Ваших идей касательно интерьера, и их совершенная реализация</li>
+                     <li>Разработка исчерпывающих инструкций и рекомендаций строителям</li>
+                     <li>Контроль на всех этапах реализации проекта</li>
+                     </ul>
+                     <div class="rotated-pointer">Портфолио</div>
+                 <div class='img-box'><img src="img/design-portfolio-img.jpg"></div>
+             </div>
+             <div class="results-wrapper col-lg-6 col-md-6">
+                 <h4>Результаты</h4>
+                 <div class="rhombus-wrapper">
+                 <div class="rhombus rhombus-one">
+                     <span>01</span>
+                     <p>Престиж</p>
+                 </div>
+                 <div class="rhombus rhombus-two">
+                    <span>02</span>
+                    <p>Высокое качество ремонта</p>
+                 </div>
+                 <div class="rhombus rhombus-three">
+                    <span>03</span>
+                    <p>Современный стиль</p>
+                 </div>
+                </div>
+             </div>
+             <div class="reviews-wrapper col-lg-12 col-md-12">
+                 <div class="call-measurer">
+                     <p>СТУДИЯ ДИЗАЙНА ИНТЕРЬЕРА</p>
+                     <p>Дизайнеры студии Design Remont разработают неповторимое оформление Вашего дома.
+                          Это позволит выразить индивидуальность владельца, подчеркнуть его исключительный статус
+                           и тонкий вкус, сочетая подобные вещи с максимальной функциональностью каждой детали.</p>
+                     <div class="button-wrapper"><button class="button-with-border" data-toggle="modal" data-target="#ModalCenter">вызвать замерщика</button></div>
+                 </div>
+                 <div class="reviews-slider">
+                        <div class="review-slide">
+                                <h3>Отзывы</h3>
+                                <div class="avatar"><img src="img/Anna.jpg"></div>
+                                <p>Анна Березина</p>
+                                <p>Ольга очень требовательна и стремится радовать своих клиентов, нам с ней всегда приятно работать.
+                                Она четко определяет сроки с самого начала проекта и гарантирует, что они...
+                               </p>
+                         </div>
+                     <div class="review-slide">
+                         <h3>Отзывы</h3>
+                         <div class="avatar"><img src="img/Anton.jpg"></div>
+                         <p>Антон Ершаков</p>
+                         <p>DesignRemont профессиональная команда, которая смогла помочь мне выбрать все
+                           большие и мелкие детали для нашей новой квартиры. Я действительно рекомендую их как как профессионалов
+                           высокого класса, которые помогут...
+                        </p>
+                     </div>
+                     <div class="review-slide">
+                            <h3>Отзывы</h3>
+                            <div class="avatar"><img src="img/Vladislav.jpg"></div>
+                            <p>Ющенко Владислав</p>
+                            <p>Я знаком с Ольгой очень много лет, работы ее дизайнеров фантастичны. Они как всегда свежи и креативны
+                                Все члены команды очень умные и квалифицированные люди.
+                           </p>
+                     </div>
+                     <div class="review-slide">
+                            <h3>Отзывы</h3>
+                            <div class="avatar"><img src="img/Andrej.jpg"></div>
+                            <p>Андрей Мельник</p>
+                            <p>Мы обратились в компанию "ДизайнРемонт" для создания дизайн-проекта и ремонта нашей квартиры.
+                                Эту компанию нам посоветовали наши друзья. Результатом работы очень довольны, спасибо большое команде Ольги...
+                           </p>
+                     </div>
+                     
+                 </div>
+             </div>
+            </section>
+            </div>
+            </section>
+            <section class="portfolio">
+              <div class="section-header-wrapper max-width-1300 ">
+                <div class="section-header">
+                  <h3>Портфолио</h3>
+                  <p>Примеры наших работ вместо тысячи слов</p>
+                </div>
+              </div>
+              <div class="portfolio-wrapper">
+              <div class="portfolio-slider">
+                <div class="portfolio-slide">
+                 <img src="img/portfolio1.jpg">
+                 <div class='slide-caption'><span>дизайн интерьера квартиры в жк "riverstone"</span></div>
+                 <button class="details">подробнее</button>
+                </div>
+                <div class="portfolio-slide">
+                        <img src="img/portfolio2.jpg">
+                        <div class='slide-caption'><span>дизайн интерьера квартиры в жк "riverstone"</span></div>
+                        <button class="details">подробнее</button>
+                       </div>
+                       <div class="portfolio-slide">
+                            <img src="img/portfolio3.jpg">
+                            <div class='slide-caption'><span>дизайн интерьера квартиры в жк "riverstone"</span></div>
+                            <button class="details">подробнее</button>
+                           </div>
+                           <div class="portfolio-slide">
+                                <img src="img/portfolio4.jpg">
+                                <div class='slide-caption'><span>дизайн интерьера квартиры в жк "riverstone"</span></div>
+                                <button class="details">подробнее</button>
+                               </div>
+              </div>
+            </div>
+              <div class="button-wrapper"><button class="white-button blue-on-hover">все работы</button></div>
+            </section>
+            <section class='stages max-width-1300 '>
+                <div class="section-header-wrapper">
+                    <div class="section-header">
+                      <h3>Этапы ремонта</h3>
+                    </div>
+                  </div>
+                  <div class="stages-wrapper">
+                      <div class="stage first">
+                          <p>01</p>
+                          <p>замер помещений</p>
+                      </div>
+                      <div class="stage second">
+                            <p>02</p>
+                            <p>подписание договора</p>
+                        </div>
+                        <div class="stage third">
+                                <p>03</p>
+                                <p>подбор стиля</p>
+                            </div>
+                            <div class="stage fourth">
+                                    <p>04</p>
+                                    <p>разработка 3d дизайна</p>
+                                </div>
+                                <div class="stage fifth">
+                                        <p>05</p>
+                                        <p>планировка электрики и сантехники</p>
+                                    </div>
+                                    <div class="stage sixth">
+                                            <p>06</p>
+                                            <p>составление плана всех помещений</p>
+                                        </div>
+                                        <div class="stage seventh">
+                                                <p>07</p>
+                                                <p>составление сметы</p>
+                                            </div>
+                      </div>
+
+            </section>
+            <div class="styles max-width-1300 ">
+                    <div class="section-header-wrapper">
+                        <div class="section-header">
+                            <h3>Подбор стиля дизайна</h3>
+                            <p>Популярные стили</p>
+                            </div>
+                    </div>
+                    <div class="row no-gutters justify-content-between styles-wrapper">
+                        <div class="col-4 col-6  style">
+                            <img src="img/ampir.jpg">
+                            <p>Ампир</p>
+                        </div>
+                        <div class="col-4 col-6  style">
+                                <img src="img/barokko.jpg">
+                                <p>Барокко</p>
+                        </div>
+                        <div class="col-4 col-6 style">
+                                <img src="img/minimalizm.jpg">
+                                <p>Минимализм</p>
+                        </div>
+                        <div class="col-4 col-6  style">
+                                <img src="img/gotika.jpg">
+                                <p>Готический стиль</p>
+                        </div>
+                        <div class="col-4 col-6  style">
+                                <img src="img/classic.jpg">
+                                <p>Классицизм</p>
+                        </div>
+                        <div class="col-4 col-6 style">
+                                <img src="img/hi-tech.jpg">
+                                <p>Хай-тек</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="work-results max-width-1300 ">
+                <div class="section-header-wrapper">
+                    <div class="section-header">
+                        <h3>РЕЗУЛЬТАТЫ РАБОТЫ ДИЗАЙНЕРА</h3>
+                        <p>ДАННЫЕ РЕЗУЛЬТАТЫ ПРИВЕДЕНЫ С ГРАФИЧЕСКИМИ ОБРАЗЦАМИ КОТОРЫЕ МОЖНО СКАЧАТЬ</p>
+                        </div>
+                </div>
+             <div class="work-results-wrapper">
+                 
+                 <div class="work-results-box">
+                        <div class="work-results-list">
+                                <h5>Результат</h5>
+                               <ul>
+                                   <li>3Д визуализация</li>
+                                   <li>План демонтажа</li>
+                                   <li>План монтажа</li>
+                                   <li>План потолков</li>
+                                   <li>План водоснабжения</li>
+                                   <li>План покрытий пола</li>
+                                   <li>План дверных проемов</li>
+                                   <li>План раскладки плитки</li>
+                                   <li>Смета количества материалов</li>
+                               </ul>
+                               <button class="white-button blue-on-hover"><i class="far fa-arrow-alt-circle-down"></i>скачать pdf презентацию</button>
+                            </div>
+                <div class="work-results-slider">
+                    <div class="work-results-slide"><img src="img/work-result1.jpg"></div>
+                    <div class="work-results-slide"><img src="img/work-result2.jpg"></div>
+                    <div class="work-results-slide"><img src="img/work-result3.jpg"></div>
+                    <div class="work-results-slide"><img src="img/work-result4.jpg"></div>
+                    <div class="work-results-slide"><img src="img/work-result5.jpg"></div>
+                    <div class="work-results-slide"><img src="img/work-result6.jpg"></div>
+                    <div class="work-results-slide"><img src="img/work-result7.jpg"></div>
+                </div>
+                 </div>
+                <div class="custom-pager-wrapper">
+                    <div class="custom-pager" id="customPager">
+                           <a data-slide-index="0" href="" class="custom-pager-slide "><img src="img/work-result1.jpg"></a>
+                           <a data-slide-index="1" href="" class="custom-pager-slide "><img src="img/work-result2.jpg"></a>
+                           <a data-slide-index="2" href="" class="custom-pager-slide "><img src="img/work-result3.jpg"></a>
+                           <a data-slide-index="3" href="" class="custom-pager-slide "><img src="img/work-result4.jpg"></a>
+                           <a data-slide-index="4" href="" class="custom-pager-slide "><img src="img/work-result5.jpg"></a>
+                           <a data-slide-index="5" href="" class="custom-pager-slide "><img src="img/work-result6.jpg"></a>
+                           <a data-slide-index="6" href="" class="custom-pager-slide "><img src="img/work-result7.jpg"></a>
+                   </div>
+                   </div>
+            </div>
+                <span class="work-results-caption">ДИЗАЙН КВАРТИРЫ В ЖК «ПРЕСТИЖ ХОЛЛ»</span>
+            </div>
+            <div class="form-box ">
+             <div class="form max-width-1300" href="#">
+                <p>ЗАПОЛНИТЕ ФОРМУ И ПОЛУЧИТЕ
+                    БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ ДИЗАЙНЕРА</p>
+                <div class="row form-row  ">    
+                   <div class="col-xl-4 col-lg-4  col-12"><label class="label"><input type="text"  placeholder="Имя" id='nameInput'><span class="wrong-data">Имя неверно</span>
+                    <span class="empty-value">Это поле обязательно для заполнения</span></label></div>
+                   <div class="col-xl-4 col-lg-4  col-12"><label class="label"><input type="tel" placeholder="Телефон" id="telInput"><span class="wrong-data">Номер телефона неверен</span>
+                    <span class="empty-value">Это поле обязательно для заполнения</span></label></div>
+                   <div class="col-xl-4 col-lg-4 col-md-12 col-12"><label class="label"><input type="email" placeholder="E-mail" id="emailInput"><span class="wrong-data">E-mail неверен</span>
+                    <span class="empty-value">Это поле обязательно для заполнения</span></label></div>
+                </div>
+                <div class="button-wrapper"><button class="button-with-border" id="submit" >Отправить</button>
+                </div>
+                <div class="mistakes" id='boxMistakes'>Ошибки заполнения. Пожалуйста, проверьте все поля и отправьте снова.</div>
+            </div>
+            </div>
+            <div class="work-phases max-width-1300 ">
+             <p>Компания Design Remont в Киеве — это не просто <b>студия дизайна интерьера</b>. Мы предлагаем комплексное решение
+                  в области обустройства помещений. Наша компания работает по двум основным направлениям —
+                   строительным работам и оформлении интерьера. Поэтому, обращаясь к нам, 
+                 Вам не придется искать подрядчиков – независимые компании, каждая из которых будет реализовывать лишь часть проекта.</p>
+              <br>
+              <p>Наши специалисты работают сплоченной командой.
+                   Благодаря чему реализовывают единое видение дизайна интерьера, утвержденное самим клиентом.</p>
+              <h5>ЭТАПЫ РАБОТЫ СТУДИИ С КЛИЕНТОМ</h5>
+              <ol>
+                  <li>Знакомство с клиентом<br>
+                  <p>Мы называем этот шаг «знакомством» потому, что основной нашей задачей является 
+                      отнюдь не получение ответов на заранее подготовленные вопросы. Мы стремимся максимально хорошо узнать каждого нашего клиента. Ведь человек — это индивидуальность, неповторимая личность, 
+                      сотканная из уникальных ценностей и личностных приоритетов. 
+                      И данные особенности должны отображаться в интерьере Вашего дома.</p>
+                  <p>Поэтому, прежде всего, мы стремимся узнать, что Вам нравиться, 
+                      где Вы хотели бы побывать, предпочитаете зиму или жаркое лето, 
+                      есть ли у Вас семья, какие цвета Вам по душе и так далее. Каждая такая особенность непосредственно влияет на интерьер и дизайн квартиры, который будет ближе клиенту по духу. Вызывающий китч точно не придется по душе прагматичным личностям. А минималистический дизайн однокомнатной квартиры может оказаться слишком скучным для творческих людей. Но узнать подобное можно, 
+                      лишь познакомившись с клиентом. Причем не как с заказчиком, а как с уникальной и совершенно неповторимой личностью.</p>
+                  </li>
+                  <li>Определение технических характеристик объекта.<br>
+                  <p>На данном этапе изучается проект квартиры, инженерные особенности сооружения, условия внешней среды,
+                       которые на него влияют, существующие канализационные, электрические, коммуникационные и отопительные системы.</p>
+                  </li>
+                  <li>Разработка концепции интерьера<br>
+                  <p>После определения личных предпочтений клиента и особенностей объекта, 
+                      над которым будут проводиться работы, дизайнер разрабатывает дизайн 
+                      интерьера в нескольких вариациях. Каждый из них в дальнейшем будет 
+                      представлен Вашему вниманию в виде эскизов. Вы увидите иллюстрацию будущего дизайна и сможете озвучить любые свои пожелания.
+                       Данный этап позволяет привнести ясность в видение интерьера, максимально очертив образ помещения.</p>
+                  </li>
+                  <li>Дизайн проект квартиры в Киеве<br>
+                  <p>Данный этап включает в себя визуализацию дизайна интерьера в формате 3D и его утверждение клиентом. 
+                      После чего дизайнер интерьера разрабатывает
+                       необходимую техническую документацию. В ее список входят схемы, планы, чертежи и спецификации.</p>
+                  </li>
+                  <li>Реализация проекта<br>
+                   <p> После утверждения всей документации, начинается непосредственная реализация проекта нашими специалистами. А ввиду того, что мы являемся компанией полного цикла, авторский надзор за выполнением работ обязателен. Вам не нужно за что-либо доплачивать или договариваться. Решаясь заказать дизайн интерьера у нас,
+                     Вы получаете наиболее эффектный результат при минимальных усилиях. Просто свяжитесь с нами, а все сложности мы возьмем на себя.</p>
+                  </li>
+              </ol>
+              <hr>
+            </div>
+            <div class="facebook-link">
+                <span class="twirled"><i class="fab fa-facebook-f"></i></span>
+                <br>
+                <span>Дизайн квартир и ремонт под ключ</span>
+            </div>
+          
+        </arcticle>
+        <footer class=" footer">
+           <div class="row max-width-1300 justify-content-between ">
+         <div class="col-lg-6 col-md-6 col-12"><p>Все права защищены ООО «ДизайнРемонт» </p></div>
+         <div class="col-lg-6 col-md-6 col-12 "><p class='footer-radio'>Слушайте радио на <a class="radio-link">Online Radio Planet</a></p></div>
+           </div>
+        </footer>
+       
+    </div>
+    <div class="sidebar" id="sidebar">
+           
+    <div class="holder" id='holder'><div class="back-to-services-menu" id="arrowBack">C</div>
+    </div>
+    </div>
+    <div class="modal " id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                  </button>
+                  <p class="modal-title" id="exampleModalLongTitle">Оставьте номер телефона и с вами свяжется наш дизайнер</p>
+                  
+                </div>
+                <div class="modal-body">
+                <input type="text" placeholder="Телефон">
+                <p>пример: 0440000111</p>
+                <textarea placeholder="Дополнительная информация (не обязательно)" rows="5"></textarea>
+                </div>
+                <div class="modal-footer">
+                        <div class="button-wrapper"><button class="white-button blue-on-hover">Отправить</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+<script src="js/common.js"></script>
+
+<script >
+    $(document).ready(function(){
+      var animatedSlider=$('.animated-slider').bxSlider({pager:false,prevText:'',nextText:'',auto:true,infinityLoop:true,mode:'fade',responsive:true,speed:2000,adaptiveHeight:true,adaptiveHeightSpeed:100});
+      $('.reviews-slider').bxSlider({wrapperClass:'bx-reviews',prevText:'',nextText:''})
+    
+   var portfolioSlider= $('.portfolio-slider').bxSlider({wrapperClass:'bx-portfolio', infinityLoop:true, pager:false,responsive:true,prevText:'',nextText:''})
+    
+    $('.work-results-slider').bxSlider({nextText: '',prevText: '',pagerCustom: '.custom-pager',wrapperClass:'bx-work-results'})
+    var customSlider=$('.custom-pager').bxSlider({controls:false,pager:false,touchEnabled:false,slideWidth:120,  minSlides:1,maxSlides:1, wrapperClass:'bx-custom-pager'})
+    $('.custom-pager-slide').each(function(){
+       $(this).click(function(){
+           customSlider.goToSlide(+$(this).attr('data-slide-index'))
+       })
+    })
+    $('.bx-work-results .bx-prev').click(function(){
+        customSlider.goToPrevSlide()
+    })
+    $('.bx-work-results .bx-next').click(function(){
+        customSlider.goToNextSlide()
+    })
+    function destroySliders(){
+        if($(document).width()<770){
+            animatedSlider.destroySlider()
+            portfolioSlider.destroySlider()
+        }
+    }
+    destroySliders()
+    $('#upToHeader').click(function(){
+     $('html,body').animate({
+         scrollTop:0
+     },500)
+    })
+});
+     
+
+</script>
+
+</body>
+</html>
